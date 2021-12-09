@@ -1,8 +1,8 @@
 # Alibaba Cloud STS SDK for Go
 
-[![GitHub Version](https://badge.fury.io/gh/baiyubin%2Faliyun-sts-go-sdk.svg)](https://badge.fury.io/gh/baiyubin%2Faliyun-sts-go-sdk)
-[![Build Status](https://travis-ci.org/baiyubin/aliyun-sts-go-sdk.svg?branch=master)](https://travis-ci.org/baiyubin/aliyun-sts-go-sdk)
-[![Coverage Status](https://coveralls.io/repos/github/baiyubin/aliyun-sts-go-sdk/badge.svg?branch=master)](https://coveralls.io/github/baiyubin/aliyun-sts-go-sdk?branch=master)
+[![GitHub Version](https://badge.fury.io/gh/bububa%2Faliyun-sts-go-sdk.svg)](https://badge.fury.io/gh/bububa%2Faliyun-sts-go-sdk)
+[![Build Status](https://travis-ci.org/bububa/aliyun-sts-go-sdk.svg?branch=master)](https://travis-ci.org/bububa/aliyun-sts-go-sdk)
+[![Coverage Status](https://coveralls.io/repos/github/bububa/aliyun-sts-go-sdk/badge.svg?branch=master)](https://coveralls.io/github/bububa/aliyun-sts-go-sdk?branch=master)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 ## 关于
@@ -17,7 +17,7 @@
 - Go 1.5及以上
 
 ## 安装方法
-- 执行命令 `go get github.com/baiyubin/aliyun-sts-go-sdk/sts`
+- 执行命令 `go get github.com/bububa/aliyun-sts-go-sdk/sts`
 
 ## 使用方法
 ```go
@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/baiyubin/aliyun-sts-go-sdk/sts"
+	"github.com/bububa/aliyun-sts-go-sdk/sts"
 )
 
 func handleError(err error) {
@@ -57,9 +57,3 @@ func main() {
 	fmt.Printf("    Expiration:%s\n", resp.Credentials.Expiration)
 }
 ```
-
-## 作者
-- [Yubin Bai](https://github.com/baiyubin)
-
-## 协议
-- [MIT](https://github.com/baiyubin/aliyun-sts-go-sdk/blob/master/LICENSE)
